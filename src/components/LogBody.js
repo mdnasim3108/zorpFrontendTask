@@ -4,7 +4,7 @@ import Table from "./table";
 const LogBody = () => {
   
   return (
-    <div className="w-full lg:mt-0 mt-[2rem] h-full flex flex-col justify-between lg:px-10 px-0 pt-2 pb-3  transition-all duration-300 ease-in-out">
+    <div className="w-full lg:mt-0 mt-[4rem] h-full flex flex-col justify-between lg:px-10 px-0 pt-2 pb-3  transition-all duration-300 ease-in-out">
 
       <div className="w-full lg:h-[15%] flex flex-col justify-between px-5">
         <h1 className="lg:text-2xl text-lg font-bold font-inter lg:mt-0 mt-3">Audit Logs</h1>
