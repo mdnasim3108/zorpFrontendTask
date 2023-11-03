@@ -15,3 +15,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 0;
+  height: 0;
+  display: none; /* You can also use 'transparent' or a color to match your background */
+}
+
+@keyframes settings {
+  from {
+    right: 3rem;
+    opacity: 0;
+  }
+  to{
+    right: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes settingsMobile {
+  from {
+    bottom: 3rem;
+    opacity: 0;
+  }
+  to{
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes nav {
+  from {
+    left: -999px;
+    opacity: 0;
+  }
+  to{
+    left: 0;
+    opacity: 1;
+  }
+}
+
+
+.settings {
+  animation: settings 300ms ease-out forwards;}
+
+.mobNav {
+    animation: nav 300ms ease-out forwards;}
+
+  @media screen and (max-width:1024px){
+    .settings {
+      animation: settingsMobile 300ms ease-out forwards;}
+  }
