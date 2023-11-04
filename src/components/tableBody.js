@@ -1,8 +1,9 @@
 import LogData from "./logData";
-const tableBody = () => {
+const tableBody = (props) => {
+
   return (
     <div className="w-full lg:h-[85%]  flex flex-col lg:mt-0 mt-3">
-      <div className="h-[2rem]  bg-[#e6e6f0] w-full  border-[2px]  border-gray-300 rounded-t  ">
+      <div className="h-[3rem] pt-2  bg-[#e6e6f0] w-full  border-[2px]  border-gray-300 rounded-t  ">
 
         <div className="lg:w-[20.6%] w-[40%] text-left inline-block  lg:pl-[5rem] pl-[3rem]">
           <p className="text-[12px] font-semibold font-inter">User</p>
@@ -30,16 +31,10 @@ const tableBody = () => {
       </div>
 
       <div className="lg:h-[calc(100%-2rem)] border-x-2 border-b-2 border-gray-300  overflow-scroll">
-      <LogData />
-      <LogData />
-      <LogData />
-      <LogData />
-      <LogData />
-      <LogData />
-      <LogData />
-      <LogData />
-      <LogData />
-      <LogData />
+        {
+          props.data.map((data,index)=><LogData {...data} index={index} auditLogsData={props.data}/>)
+        }
+    
       </div>
       
     </div>

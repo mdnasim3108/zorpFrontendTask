@@ -60,7 +60,17 @@ code {
   }
 }
 
+@keyframes details {
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
 
+.detail {
+  animation: details 400ms ease-out forwards;}
 .settings {
   animation: settings 300ms ease-out forwards;}
 
