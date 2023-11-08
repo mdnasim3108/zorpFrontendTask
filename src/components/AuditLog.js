@@ -7,7 +7,7 @@ import Task from "./task";
 const AuditLog = () => {
   const [showSettings, setShowSettings] = useState(true);
   return (
-    <div className="w-full lg:h-screen flex lg:flex-row flex-col ">
+    <div className="w-full h-screen flex lg:flex-row flex-col ">
       <MobileNav />
 
      
