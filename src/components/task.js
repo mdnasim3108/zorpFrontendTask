@@ -1,16 +1,16 @@
 
 import zorpLogo from "../assets/zorpLogo.jpg";
 const task = () => {
-    return <div className="w-full h-full flex flex-col   lg:px-[5rem] lg:py-[5rem] mt-20 lg:mt-0">
+    return <div className="w-full  flex flex-col   lg:px-[5rem] lg:py-[5rem] mt-20 lg:mt-0">
         <div className="w-full text-center h-max">
             <h1 className="text-lg">Zorp</h1>
         </div>
 
-        <div className="flex lg:w-[90%] w-full lg:justify-between justify-center items-center lg:flex-row flex-col lg:h-[95vh] h-[90rem] mt-[10rem]">
+        <div className="flex lg:w-[90%] w-full lg:justify-between justify-center items-center lg:flex-row flex-col lg:h-[95vh] h-[90rem] mt-[10rem] lg:mt-0">
 
             <div className="flex flex-col justify-between lg:items-stretch items-center h-full lg:w-[30%] w-full ">
 
-                <div className="border-2 border-gray-400 lg:h-[45%] h-max w-[95%] p-2 border-2 border-gray-500 rounded">
+                <div className="border-2 border-gray-400 lg:h-[45%] h-max w-[95%] p-2 border-2 border-gray-500 rounded overflow-hidden">
 
                     <div className="">
 
@@ -26,7 +26,7 @@ const task = () => {
 
                 </div>
 
-                <div className="border-2 border-gray-400 lg:h-[45%] h-max w-[95%] p-2 border-2 border-gray-500 rounded">
+                <div className="border-2 border-gray-400 lg:h-[45%] h-max w-[95%] p-2 border-2 border-gray-500 rounded overflow-hidden">
 
                     <div className="">
 
@@ -50,7 +50,7 @@ const task = () => {
 
             <div className="flex flex-col justify-between lg:items-stretch items-center h-full lg:w-[30%] w-full ">
 
-                <div className="border-2 border-gray-400 lg:h-[45%] h-max w-[95%] p-2 border-2 border-gray-500 rounded">
+                <div className="border-2 border-gray-400 lg:h-[45%] h-max w-[95%] p-2 border-2 border-gray-500 rounded overflow-hidden">
 
                     <div className="">
 
@@ -66,7 +66,7 @@ const task = () => {
 
                 </div>
 
-                <div className="border-2 border-gray-400 lg:h-[45%] h-max w-[95%] p-2 border-2 border-gray-500 rounded">
+                <div className="border-2 border-gray-400 lg:h-[45%] h-max w-[95%] p-2 border-2 border-gray-500 rounded overflow-hidden">
 
                     <div className="">
 
