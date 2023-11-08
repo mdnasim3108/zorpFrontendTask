@@ -3,10 +3,11 @@ import Settings from "./settings";
 import LogBody from "./LogBody";
 import { useState } from "react";
 import MobileNav from "./mobileNav";
+import Task from "./task";
 const AuditLog = () => {
   const [showSettings, setShowSettings] = useState(true);
   return (
-    <div className="w-full h-screen flex lg:flex-row flex-col ">
+    <div className="w-full lg:h-screen flex lg:flex-row flex-col ">
       <MobileNav />
 
      
@@ -18,7 +19,8 @@ const AuditLog = () => {
           close={() => setShowSettings(false)}
         />
       )}
-      <LogBody showSettings={showSettings} />
+      {/* <LogBody showSettings={showSettings} /> */}
+      <Task/>
     </div>
   );
 };
