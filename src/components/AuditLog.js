@@ -19,8 +19,8 @@ const AuditLog = () => {
           close={() => setShowSettings(false)}
         />
       )}
-      {/* <LogBody showSettings={showSettings} /> */}
-      <Task/>
+      <LogBody showSettings={showSettings} />
+      {/* <Task/> */}
     </div>
   );
 };

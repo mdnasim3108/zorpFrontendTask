@@ -66,7 +66,7 @@ const task = () => {
 
                 </div>
 
-                <div className="border-2 border-gray-400 lg:h-[45%] h-max w-[95%] p-2 border-2 border-gray-500 rounded overflow-hidden mb-5">
+                <div className="lg:h-[45%] h-max w-[95%] p-2 border-2 border-gray-500 rounded overflow-hidden mb-5">
 
                     <div className="">
 
